@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Diagnostika zdravotních problémů</title>
+    <link rel="shortcut icon" href="../../favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="text-center">
+        <h3>Stručná diagnostika zdravotních problémů</h3>
+    </header>
+
+    <main class="container p-15">
+        <form id="diagnostic">
+            <label for="cause" class="h3">Co tě trápí?</label>
+            <select name="cause" id="cause" class="py-5">
+                <option value=""></option>
+            </select>
+            <button class="button bg-green white" type="submit">Vyhledat</button>
+        </form>
+
+        <hr>
+
+        <p id="advice" class="hide maw-600"></p>
+    </main>
+
+    <footer class="text-center">
+        <hr>
+        <p>Informace vycházejí z doporučení Louise L. Hay</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
