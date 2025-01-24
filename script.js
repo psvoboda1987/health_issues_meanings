@@ -1,7 +1,7 @@
 
   let options = await fetch('data.json')
       .then(res => res.json())
-      .then(data => data.items.sort(sortOn('name')));
+      .then(data => data.sort(sortOn('name')));
   const selectBox = document.getElementById('cause');
   let target = document.getElementById('advice');
 
